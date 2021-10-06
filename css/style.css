@@ -1,0 +1,273 @@
+header{
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+}
+.header-top-search{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 43%;
+}
+#form-search{
+    max-width: 278px;
+    
+}
+.form-control{
+    position: relative;
+    height: 34px;
+    width: 90px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+}
+.nav-header{
+    margin: 15px;
+    display: flex;
+    justify-content:center;
+}
+.nav-header li{
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+.nav-header li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+}
+.logo{
+    width: 100px;
+}
+.nav-header li:last-child{
+    border: none;
+}
+.cart{
+    font-size: 20px;
+    margin-top: 13px;
+}
+.title-h3 h3{
+    text-transform: uppercase;
+}
+.spbc{
+    margin-top: 50px;
+}
+.title-h3 h3 span{
+    color: purple;
+}
+.img-sp-ban-chay img{
+    width: 100%;
+}
+.img-sp img{
+    width:100%;
+}
+.img-sp{
+    position: relative;
+}
+.img-sp .sale-off{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    top: 5px;
+    left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 10px;
+    padding: 1px;
+    padding-left: 5px;
+}
+.list-spbc a{
+    font-size: 11px;
+    color: #363636;
+    text-decoration: none;
+}
+.list-spbc span .cur-p{
+    color: rgb(255, 146, 164);
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+}
+.list-spbc span .old-p{
+    text-decoration: line-through;
+    opacity: 0.6;
+    font-size: 12px;
+}
+.product-list a{
+    font-size: 12px;
+    color: #363636;
+    text-decoration: none;
+}
+.product-list span .cur-p{
+    color: rgb(255, 146, 164);
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+}
+.product-list span .old-p{
+    text-decoration: line-through;
+    opacity: 0.6;
+    font-size: 12px;
+}
+.container-ul h3{
+    font-size: 16px;
+}
+.container-ul ul li{
+    list-style: none;
+}
+.container-ul ul li a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+}
+address{
+    font-size: 14px;
+}
+.container-ul{
+    width: 22%;
+    border-right: 1px solid silver;
+}
+.cskh{
+    margin-right: 20px;
+}
+.tsc{
+    padding-left: 5px;
+    width: 25%;
+    margin-right: 20px;
+}
+.container-ul:last-child{
+    border: none;
+}
+.dcn{
+    width: 25%;
+}
+.footer-top{
+    border-top: 2px solid silver;
+    background-color: #dddddd;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.pttt h3{
+    font-size: 14px;
+}
+.pttt{
+    margin-right: auto;
+}
+.pttt button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    height: 40px;
+}
+.pttt input{
+    padding: 5px;
+    width: 350px;
+}
+.footer-body{
+    margin: 20px auto;
+}
+.header-scroll{
+    background-image: url(../images/top.png);
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.dropdown:hover {
+    display: block;
+    text-align:left;
+    padding-left: 10px;
+    
+}
+  
+.dropdown-menu{
+    background-color: #000 !important;
+    width: 250px;
+}
+
+.header-top .logo-yami{ 
+    width: 150px;
+    
+}
+.header-top .logo-yami img{
+    width: 100%;
+}
+.nav-header li:hover{
+    background-color: rgb(238, 166, 166);
+    
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.non-style{
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+}
+.tai-khoan .icon{
+    background-image: url(../images/dang-nhap.png);
+
+}
+.icon{
+    height: 38px;
+    width: 38px;
+    display: table-cell;
+}
+.non-style li{
+    list-style: none;
+}
+.tra-cuu-don-hang .icon{
+    background-image:url(..//images/tra-cuu-don-hang.png) ;
+}
+.gio-hang .icon{
+    background-image: url(../images/gio-hang.png);
+}
+.non-style .text{
+    margin:5px;
+}
+.btn-submit {
+    background-color: #000;
+    color:white;
+    padding: 2.5px;
+}
+.breadcrumb>li
+{
+    display: inline-block;
+}
+.activer{
+    text-transform: uppercase;
+}
+.breadcrumb-mg0-row{
+    background:red;
+}
+.mg0{
+    margin: 0;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.btn-goi-lai
+{
+    width: auto;
+    font-size: 16px;
+    background: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.col-md-7{
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
